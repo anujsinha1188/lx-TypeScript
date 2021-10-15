@@ -1,0 +1,13 @@
+// logic to display the Product details with interface object as parameter
+function getProductDetails(productobj) {
+    return 'The product name is : ' + productobj.productName;
+    //return 'The product name is : ' + productobj.productName + '. The product id is : ' + productobj.productId + '. The product price is : ' + productobj.productPrice;
+}
+// declaring a variable having interface properties
+//const prodObject = { productId: 1001, productName: 'Mobile' };
+//let prodObject = { productName: 'Mobile', productPrice: 10000 };
+var prodObject = { productId: 1001, productName: 'Mobile', productPrice: 10000 };
+// declaring variable and invoking Product details function
+var productDetails = getProductDetails(prodObject);
+// line to populate the created product on console
+console.log(productDetails);

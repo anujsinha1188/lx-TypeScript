@@ -1,0 +1,12 @@
+{   
+    "compilerOptions": {  
+            "target": "es5",   
+            "outDir": "Outfile",  
+            "sourceMap": true,
+            "watch":true
+        },   
+    "files": [    
+            "Namespace_demo.ts",	
+            "Namespace_import.ts"   
+    ]
+}

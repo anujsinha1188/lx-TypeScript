@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "experimentalDecorators": true
+    },
+    "files": [
+        "01_Demo_Class_Decorator.ts",
+        "02_Demo_Method_Decorator.ts",
+        "03_Exercise_Decorator.ts"
+    ]
+}
